@@ -34,7 +34,7 @@ Public Class OdbcDbIf
 
             Dim cst As String = ""
             'cst = cst & ";DSN=" & dsn
-            cst = cst & ";DRIVER={FileMaker ODBC};HST=192.168.0.171;PRT=2399"
+            cst = cst & ";DRIVER={FileMaker ODBC};HST=192.168.0.175;PRT=2399"
             cst = cst & ";Database=" & dbn
             cst = cst & ";UID=" & uid
             cst = cst & ";PWD=" & pas
